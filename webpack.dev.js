@@ -16,12 +16,12 @@ module.exports = {
     filename: "[name].js",
     // assetsPublicPath:'/'
   },
-  resolve: {
-    // extensions: [".js", ".jsx", ".json"],
-    alias: {
-      "@": path.resolve(__dirname, './src')
-    }
-  },
+  // resolve: {
+  //   // extensions: [".js", ".jsx", ".json"],
+  //   alias: {
+  //     "@": path.resolve(__dirname, './src')
+  //   }
+  // },
   module: {
     rules: [{
       test: /\.(png|jpe?g|gif|svg)(\?.*)?$/,
